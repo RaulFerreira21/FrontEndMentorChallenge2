@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: url(images/watercolor-background.png) no-repeat center ;
+    background-size: cover;
+}
+#main{
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    box-shadow: 0 2px 17px -1px lightgrey;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: 70%;
+}
+#leftContent{
+    padding: 100px;
+}
+input{
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 40px;
+    color: lightslategray;
+    height: 25px;
+    width: 200px;
+}
+form{
+    display: flex;
+}
+.botao{
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 40px;
+    width: 100px;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    margin-left: -20px;
+}
+#info{
+    width: 500px;
+}
+#info :first-child{
+    color: pink;
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin: 20px 0px;
+    font-weight: unset;
+}
+#info :last-child{
+    color: pink;
+    margin: 20px 0px;
+    width: 350px;
+}
